@@ -1,0 +1,30 @@
+@import "../../../assets/scss/vars";
+
+.main-header {
+  background: $main-dark;
+  display: fixed;
+  width: 100vw;
+  height: 65px;
+}
+.navbar-header {
+  .nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    .nav-item-li {
+      position: relative;
+      top: 15px;
+      a {
+        text-decoration: none;
+        color: $light-color;
+        font-size: 18px;
+
+        &:hover {
+          background: $light-color;
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
